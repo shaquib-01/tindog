@@ -1,0 +1,161 @@
+.body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#h1 {
+  /* font-family: "Montserrat-black" ; */
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  padding: 3% 5%;
+  font-size: 3rem;
+  color: #fff;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #7C99AC;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+ .nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.5rem;
+}
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+/* download button */
+.download-btn {
+  margin: 5% 3% 5% 0%;
+}
+
+/* tilte-image */
+.title-image {
+  width: 70%;
+  transform: rotate(20deg);
+  position: absolute;
+  left: 30%;
+}
+
+.row {
+  padding: 3% 15%;
+}
+
+/* #features{
+   background-color: #fff;
+   position: relative;
+ } */
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  background-color: #fff;
+  position: relative;
+}
+
+.icon {
+  color: #FF7F3F;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials   */
+#testimonial {
+  padding: 3% 15%;
+  background-color: #FF7F3F;
+  text-align: center;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 50%;
+}
+
+.press-logo {
+  padding: 3% 15%;
+  background-color: #F7ECDE;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  margin: 20px 15px;
+}
+
+/* pricing */
+.priceid {
+  color: #000;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#pricing {
+  /* padding: 100px; */
+  text-align: center;
+}
+
+.col-sec {
+  padding: 0 3%;
+}
+
+@media(max-width: 1110px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* call to action section */
+.ctasec {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.ctah3 {
+  font-size: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%;
+}
+
+.footer-fab {
+  margin: 30px 40px 30px;
+}
